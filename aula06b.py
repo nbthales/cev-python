@@ -1,0 +1,8 @@
+n = input('Digite algo: ')
+#n = bool(input('Digite um valor: '))
+print('É númerico? {}.'.format(n.isnumeric()))
+print('É letra? {}.'.format(n.isalpha()))
+print('É alphanumérico? {}.'.format(n.isalnum()))
+print('Está somente em letras maiusculas? {}.'.format(n.isupper()))
+print('Está somente em letras minuscula? {}.'.format(n.islower()))
+print('É um espaço? {}.'.format(n.isspace()))
