@@ -20,4 +20,3 @@ def escreva(txt):
 
 frase = input('Digite uma frase: ')
 escreva(frase)
-
